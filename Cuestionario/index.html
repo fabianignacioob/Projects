@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/EstilosCuestionario.css?v=1.1">
+    <title>Cuestionario</title>
+  </head>
+  <body>    
+    <div class="container contenedor_principal">
+        <div class="row ">
+            <div class="col-xl-6 offset-xl-3 col-lg_6 offset-lg-3 col-md-6 offset-md-3 col-sm-12 col-xs-12 ">
+                <div class="rounded bg_titulo">
+                    <h3 class="text-center texto_titulo_principal">Título Cuestionario</h3>                            
+                </div>
+                <div class="rounded bg_contenedor_trivia">                    
+                    <div class="container bg_seccion_trivia">
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <div class="bg_enum"> <span class="texto_enum">1</span> </div>
+                                <div class="text-left texto_titulo_secciones">¿Pregunta sin título?</div>
+                            </div>
+                        </div>                           
+                         <hr>
+                        <div id="ctnrespuestas" class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas borde_correcta_normal"> <span class="texto_caja_respuestas">Respuesta 1</span> </button> 
+                                <div class="d-block d-sm-none"><img class="img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class=""> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas bg_incorrecta"> <span class="texto_caja_respuestas">Respuesta 2</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas"> <span class="texto_caja_respuestas">Respuesta 3</span> </button> 
+                                <div class="d-block d-sm-none"><img class=" d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>  
+                            <div class="col-12">
+                                <!--Check SM-->
+                                <div id="ctnrespuestasmovil" class="d-block d-sm-none">
+                                    <div class="d-none"> <span class="flecha_arriba_correcta"></span><div class="caja_correcta_movil">¡Correcto!</div></div>
+                                    <div class=""> <span class="flecha_arriba_incorrecta"></span><div class="caja_incorrecta_movil">¡Incorrecto!</div></div>
+                                </div>
+                                <!--CHECK NORMAL-->
+                                <div id="ctnrespuestasnormal" class="d-none d-sm-block">
+                                    <div class="d-none caja_correcta_normal"><i class="fas fa-check-circle"></i> Correcto</div>
+                                    <div class="caja_incorrecta_normal"><i class="fas fa-times-circle"></i> Incorrecto</div>
+                                </div>   
+                            </div>                              
+                        </div>                                                   
+                    </div>        
+                    <div class="container bg_seccion_trivia">
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <div class="bg_enum"> <span class="texto_enum">2</span> </div>
+                                <div class="text-left texto_titulo_secciones">¿Pregunta sin título?</div>
+                            </div>
+                        </div>                           
+                            <hr>
+                        <div id="ctnrespuestas" class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas"> <span class="texto_caja_respuestas">Respuesta 1</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas bg_correcta"> <span class="texto_caja_respuestas">Respuesta 2</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas"> <span class="texto_caja_respuestas">Respuesta 3</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>  
+                            <div class="col-12">
+                                <!--Check SM-->
+                            <div id="ctnrespuestasmovil" class="d-block d-sm-none">
+                                <div class=""> <span class="flecha_arriba_correcta"></span><div class="caja_correcta_movil">¡Correcto!</div></div>
+                                <div class="d-none"> <span class="flecha_arriba_incorrecta"></span><div class="caja_incorrecta_movil">¡Incorrecto!</div></div>
+                            </div>
+                            <!--CHECK NORMAL-->
+                            <div id="ctnrespuestasnormal" class="d-none d-sm-block">
+                                <div class="caja_correcta_normal"><i class="fas fa-check-circle"></i> Correcto</div>
+                                <div class="d-none caja_incorrecta_normal"><i class="fas fa-times-circle"></i> Incorrecto</div>
+                            </div> 
+                            </div>                             
+                        </div>                                                                               
+                    </div> 
+                    <div class="container bg_seccion_trivia">
+                        <div class="row align-items-center">
+                            <div class="col-12">
+                                <div class="bg_enum"> <span class="texto_enum">3</span> </div>
+                                <div class="text-left texto_titulo_secciones">¿Pregunta sin título?</div>
+                            </div>
+                        </div>                           
+                            <hr>
+                        <div id="ctnrespuestas" class="row">
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas"> <span class="texto_caja_respuestas">Respuesta 1</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas"> <span class="texto_caja_respuestas">Respuesta 2</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+                            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <button class="caja_respuestas"> <span class="texto_caja_respuestas">Respuesta 3</span> </button> 
+                                <div class="d-block d-sm-none"><img class="d-none img_flecha" src="images/arrow_movil.png" alt=""></div>
+                                <div class="d-none"> <div class="d-none d-sm-block d-md-block d-lg-block d-xl-block"><img class="flecha_normal" src="images/arrow_movil.png" alt=""></div></div>
+                                <div class="d-none span_texto_correcta text-center">Esta es la respuesta correcta</div>
+                            </div>
+                            <div class="col-12">
+                                <!--Check SM-->
+                                <div id="ctnrespuestasmovil" class="d-block d-sm-none">
+                                    <div class="d-none"> <span class="flecha_arriba_correcta"></span><div class="caja_correcta_movil">¡Correcto!</div></div>
+                                    <div class="d-none"> <span class="flecha_arriba_incorrecta"></span><div class="caja_incorrecta_movil">¡Incorrecto!</div></div>
+                                </div>
+                                <!--CHECK NORMAL-->
+                                <div id="ctnrespuestasnormal" class="d-none d-sm-block">
+                                    <div class="d-none caja_correcta_normal"><i class="fas fa-check-circle"></i> Correcto</div>
+                                    <div class="d-none caja_incorrecta_normal"><i class="fas fa-times-circle"></i> Incorrecto</div>
+                                </div>  
+                            </div>
+                        </div>                                                  
+                    </div>  
+                    <div id="ctnresultado">
+                        <h2 class="texto_titulo_resultado text-left">Respuestas</h2>
+                        <p class="texto_parrafo_resultado text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, reiciendis perspiciatis assumenda similique, quae voluptas quaerat vitae soluta voluptate nostrum praesentium totam, cupiditate dolorem repudiandae atque obcaecati. Rem, provident. Tenetur.</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  
+</html>

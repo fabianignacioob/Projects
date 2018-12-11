@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.box_principal {
+  height: 187px;
+  width: 254px;
+  background: linear-gradient(180deg, #4C6FA1 0%, #253C68 100%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding-left: 18px; }
+  .box_principal .cabecera_docs .texto_docs {
+    width: 136px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-top: 15px; }
+  .box_principal .cabecera_docs .icon_user {
+    opacity: 0.14;
+    color: #FFFFFF;
+    font-size: 40px; }
+  .box_principal .texto_info {
+    height: 60px;
+    width: 200px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 16px; }
+  .box_principal .box_buscar {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #33508D;
+    height: 30px;
+    width: 218px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding-left: 15px; }
+
+/*# sourceMappingURL=EstilosDocsPerdidos.css.map */

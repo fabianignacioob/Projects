@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto-Regular.ttf"); }
+.header_p7 {
+  background-color: #1B2129;
+  overflow-x: hidden;
+  position: relative; }
+  .header_p7 .hyper {
+    cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+    width: 175px;
+    top: 0;
+    bottom: 0;
+    margin-top: 20px; }
+  .header_p7 .bg_redes_sociales {
+    height: 100px;
+    padding-top: 40px;
+    float: right; }
+    .header_p7 .bg_redes_sociales .redes_sociales {
+      color: #FFF;
+      height: 18px;
+      width: 16px;
+      font-size: 18px;
+      line-height: 18px;
+      margin-right: 1.5rem; }
+    .header_p7 .bg_redes_sociales .separador {
+      background: #FFF;
+      height: 20px;
+      width: 2px;
+      border: 1px solid #FFFFFF;
+      margin-right: 1.5rem; }
+
+.nav_padre_a {
+  height: 50px;
+  background-color: #FFF;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  padding-top: -5px; }
+  .nav_padre_a .texto_menu {
+    color: #1B2129;
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 19px;
+    font-family: Roboto; }
+  .nav_padre_a .texto_menu {
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out; }
+  .nav_padre_a .texto_menu:hover {
+    color: #FF7043; }
+  .nav_padre_a .boton_vivo {
+    width: 187px;
+    height: 26px;
+    border-radius: 2px;
+    border: 1px solid #FF7043;
+    background: #FFF;
+    cursor: pointer;
+    color: #FF7043;
+    margin-top: 2px; }
+    .nav_padre_a .boton_vivo .texto_boton {
+      height: 19px;
+      width: 68px;
+      color: #1B2129;
+      font-family: Roboto;
+      font-size: 16px;
+      letter-spacing: 0.18px;
+      line-height: 19px;
+      font-family: Roboto; }
+  .nav_padre_a .boton_vivo:hover {
+    background-color: #FF7043;
+    color: #FFF; }
+
+.nav_padre_b {
+  height: 50px;
+  background-color: #1B2129;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2); }
+  .nav_padre_b .bg_dropdown {
+    background: #F5F5F5; }
+  .nav_padre_b #secciones {
+    margin-top: 5px;
+    cursor: pointer; }
+  .nav_padre_b .texto_menu {
+    color: #1B2129;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Roboto;
+    font-weight: 600; }
+  .nav_padre_b .texto_menu:hover {
+    color: #FF7043;
+    text-decoration: underline; }
+  .nav_padre_b .texto_nav {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #1B2129;
+    letter-spacing: 0.16px;
+    line-height: 20px; }
+  .nav_padre_b .boton_vivo {
+    width: 187px;
+    height: 26px;
+    border-radius: 2px;
+    border: 1px solid #FF7043;
+    background: #FF7043;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+    margin-top: 4px; }
+    .nav_padre_b .boton_vivo .texto_boton {
+      height: 19px;
+      width: 68px;
+      color: #FF7043;
+      font-family: Roboto;
+      font-size: 16px;
+      letter-spacing: 0.18px;
+      line-height: 19px;
+      font-family: Roboto; }
+  .nav_padre_b .texto_sec {
+    height: 19px;
+    width: 75px;
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 19px;
+    font-family: Roboto;
+    cursor: pointer; }
+  .nav_padre_b #nav_in {
+    position: relative; }
+    .nav_padre_b #nav_in .img_logo_dark {
+      position: absolute;
+      width: 95px;
+      margin-top: -12px; }
+
+#box_buscar {
+  margin-top: -10px; }
+
+#buscar {
+  cursor: pointer; }
+
+.icon_buscar {
+  background-color: #1B2129;
+  border-radius: 0.2rem; }
+
+/*# sourceMappingURL=EstilosHeader.css.map */

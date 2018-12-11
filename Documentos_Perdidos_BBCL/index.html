@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentos Perdidos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/EstilosDocsPerdidos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+    <div class="box_principal">
+        <div class="row d-flex align-items-center justify-content-center cabecera_docs">
+            <div class="col float-left"><h1 class="texto_docs">DOCUMENTOS PERDIDOS</h1></div>
+            <div class="col float-right"><i class="icon_user far fa-address-card fa-2x"></i></div>           
+        </div>
+        <p class="texto_info">
+            ¿Perdiste algún documento?
+            Ingresa tu rut y conoce si tus documentos extraviados están en nuestros estudios.
+        </p>
+        <div id="frmDocsPerdidos">
+            <input class="box_buscar" type="text" v-on:keyup.13="addToCount" v-model="text" placeholder="Ej: 12345678-9" >        
+        </div>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="js/vue.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.box_app_movil {
+  height: 331px;
+  width: 254px;
+  background: linear-gradient(180deg, #4C6FA1 0%, #253C68 100%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding-top: 20px;
+  position: relative; }
+  .box_app_movil .fondo_cel img {
+    position: absolute;
+    width: auto;
+    height: 150px;
+    z-index: 0;
+    top: 16px; }
+  .box_app_movil .cabecera_appmovil .logo_rbb {
+    width: 90px;
+    height: 40px; }
+  .box_app_movil .descargas_appmovil .texto_descarga {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 16px; }
+  .box_app_movil .botones_app {
+    padding-bottom: 0.2rem; }
+    .box_app_movil .botones_app .btn_redes {
+      box-sizing: border-box;
+      height: 30px;
+      width: 103px; }
+  .box_app_movil .divisor {
+    height: 1px;
+    width: 254px;
+    background-color: #5F759B; }
+  .box_app_movil .redessociales_appmovil .texto_informate {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 1rem; }
+  .box_app_movil .redessociales_appmovil .contenedor_msn .btn_msn_app {
+    padding-top: 5px;
+    height: 34px;
+    width: 186px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color: #0086F7;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px; }
+    .box_app_movil .redessociales_appmovil .contenedor_msn .btn_msn_app .icon_msn {
+      font-size: 22px;
+      color: #FFF; }
+  .box_app_movil .redessociales_appmovil .contenedor_wsp .btn_wsp_app {
+    padding-top: 5px;
+    height: 34px;
+    width: 186px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color: #00E584;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px; }
+    .box_app_movil .redessociales_appmovil .contenedor_wsp .btn_wsp_app .icon_wsp {
+      font-size: 22px;
+      color: #FFF; }
+
+/*# sourceMappingURL=EstilosAppMovil.css.map */
